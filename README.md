@@ -16,6 +16,9 @@ Vscode settings (Php, Laravel, Vue).
 ### Vscode settings directory in project
 ```sh
 .vscode\settings.json
+
+# Or in global
+C:\Users\[USERNAME]\AppData\Roaming\Code\User\settings.json
  ```
 
 ### Optional .editorconfig (will override all settings)
