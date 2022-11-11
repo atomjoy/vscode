@@ -1,5 +1,5 @@
-# vscode
-Vscode settings (Php, Laravel, Vue).
+# VS Code
+Ustawienia Vs Code dla Php, Js, Laravel, Vue.
 
 ### Extensions
 - JavaScript (ES6) code snippets
@@ -13,11 +13,11 @@ Vscode settings (Php, Laravel, Vue).
 ### Google Fonts
 - Fira Code
 
-### Vscode settings directory in project
+### Vscode ustawienia w katalogu projektu
 ```sh
 .vscode\settings.json
 
-# Or in global
+# Lub globalnie
 C:\Users\[USERNAME]\AppData\Roaming\Code\User\settings.json
  ```
 
@@ -31,7 +31,7 @@ C:\Users\[USERNAME]\AppData\Roaming\Code\User\settings.json
 }
 ```
 
-### Optional .editorconfig (will override all settings)
+### Opcjonalnie .editorconfig (will override all settings)
 ```sh
 [*.{js,ts,vue,css}]
 quote_type = single
@@ -40,3 +40,13 @@ indent_size = 2
 trim_trailing_whitespace = true
 ```
 
+### VSCode skróty
+```sh
+Ctrl + D - Zaznacz ten sam tekst, strzałki przesuń kursor i dodaj lub zamień tekst
+
+Lewy Alt + Click - Ustaw kursor multiline i przesuń lub zaznacz ten sam tekst strzałki z SHIFT
+
+Alt + Shift + ArrowUp or ArrowDown - Kopiuj linijkę
+
+Alt + ArrowUp or ArrowDown - Przesuń linijkę lub zaznaczenie
+```
