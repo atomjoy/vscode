@@ -42,6 +42,8 @@ trim_trailing_whitespace = true
 
 ### VSCode skróty
 ```sh
+Ctrl + / - Komentowanie zaznaczonego tekstu i z powrotem
+
 Ctrl + D - Zaznacz ten sam tekst, strzałki przesuń kursor i dodaj lub zamień tekst
 
 Lewy Alt + Click - Ustaw kursor multiline i przesuń lub zaznacz ten sam tekst strzałki z SHIFT
