@@ -1,32 +1,33 @@
 {
+	// Disable git
+	"git.enabled": false,
+
 	// Php
 	"php.validate.executablePath": "C:/xampp/php/php.exe",
 
 	// Window zoom/scale
-	"window.zoomLevel": 0,
+	"window.zoomLevel": 1,
 
 	// Workbench style
 	"workbench.tree.indent": 20,
 	"workbench.tree.renderIndentGuides": "always",
-
-	// Themes
-	//"workbench.colorTheme": "GitHub Light Default",
-	"workbench.colorTheme": "Bearded Theme Oceanic",
 
 	// Icons
 	"workbench.iconTheme": "material-icon-theme",
 
 	// File
 	"files.trimTrailingWhitespace": true,
-	"editor.fontLigatures": true,
 
 	// Style
-	"editor.wordWrap": "off",
+	"editor.fontSize": 17,
+	"editor.letterSpacing": 0.5,
 	"editor.fontFamily": "'Fira Code',Consolas,monospace",
-	"editor.fontSize": 14,
-	"editor.tabSize": 2,
 	"editor.insertSpaces": true, // Use spaces no tabs
 	"editor.detectIndentation": false,
+	"editor.fontLigatures": true, // Enables font ligatures
+	"editor.wordWrap": "off",
+	"editor.lineHeight": 25, // Use 0 to compute the lineHeight from the fontSize.
+	"editor.tabSize": 2,
 
 	// Formatter
 	"editor.formatOnSave": true,
@@ -41,9 +42,12 @@
 	"prettier.bracketSameLine": true, // Dont break > tag end
 
 	// Line length
-	"editor.wordWrapColumn": 1000, // Dont break line
-	"html.format.wrapLineLength": 1000, // Dont break line
-	"prettier.printWidth": 1000, // Dont break line
+	"editor.wordWrapColumn": 300, // Dont break line
+	"html.format.wrapLineLength": 300, // Dont break line
+	"prettier.printWidth": 300, // Dont break line
+
+	// Laravel Blade Snippets formatter @ext:onecentlin.laravel-blade
+	"blade.format.enable": true,
 
 	// Format files
 	"[markdown]": {
@@ -74,10 +78,6 @@
 		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
 		"editor.wordWrapColumn": 1000
 	},
-
-	// Laravel Blade Snippets formatter @ext:onecentlin.laravel-blade
-	"blade.format.enable": true,
-
 	"[blade]": {
 		"editor.tabSize": 4,
 		"editor.insertSpaces": false, // Change spaces to tabs
@@ -89,5 +89,15 @@
 
 	// Laravel facades error
 	"intelephense.diagnostics.undefinedTypes": false,
-	"intelephense.diagnostics.undefinedMethods": false
+	"intelephense.diagnostics.undefinedMethods": false,
+	"intelephense.environment.phpVersion": "8.1.6",
+	"workbench.startupEditor": "none",
+	"workbench.colorTheme": "Bearded Theme Oceanic",
+	"explorer.confirmDragAndDrop": false,
+
+	"files.associations": {
+		"*.env": "properties",
+		"*.env.*": "properties"
+	}
+	// "typescript.tsserver.log": "normal"
 }
