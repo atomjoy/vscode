@@ -12,3 +12,7 @@ code --install-extension onecentlin.laravel-blade
 code --install-extension Vue.volar
 code --install-extension Vue.vscode-typescript-vue-plugin
 code --install-extension xabikos.JavaScriptSnippets
+
+# Snippets optional
+code --install-extension sdras.vue-vscode-snippets
+code --install-extension hollowtree.vue-snippets
