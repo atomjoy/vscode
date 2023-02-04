@@ -52,3 +52,6 @@ Alt + Shift + ArrowUp or ArrowDown - Kopiuj linijkę
 
 Alt + ArrowUp or ArrowDown - Przesuń linijkę lub zaznaczenie
 ```
+
+### Zdjęcia
+<img src="https://raw.githubusercontent.com/atomjoy/vscode/main/vscode.png" width="100%">
