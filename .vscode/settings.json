@@ -40,7 +40,7 @@
 	"prettier.singleQuote": true,
 	"prettier.semi": false,
 	"prettier.jsxSingleQuote": true,
-	"prettier.useTabs": true, // Change spaces to tabs
+	"prettier.useTabs": false, // Change spaces to tabs
 	"prettier.bracketSameLine": true, // Dont break > tag end
 
 	// Line length
@@ -55,7 +55,7 @@
 	"[markdown]": {
 		"editor.unicodeHighlight.ambiguousCharacters": false,
 		"editor.unicodeHighlight.invisibleCharacters": false,
-		"editor.wordWrap": "on"
+		"editor.wordWrap": "off"
 	},
 	"[javascript]": {
 		"editor.formatOnSave": true,
