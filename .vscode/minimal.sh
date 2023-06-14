@@ -1,5 +1,6 @@
 # Install extensions in terminal
 
+code --install-extension GitHub.github-vscode-theme
 code --install-extension BeardedBear.beardedtheme
 code --install-extension bmewburn.vscode-intelephense-client
 code --install-extension DavidAnson.vscode-markdownlint
