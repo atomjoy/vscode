@@ -20,7 +20,7 @@
 
 	// Style
 	"editor.fontSize": 18,
-	"editor.fontFamily": "'Fira Code',Consolas,monospace",
+	"editor.fontFamily": "'JetBrains Mono','Fira Code',Consolas,monospace",
 	"editor.insertSpaces": true, // Use spaces no tabs
 	"editor.detectIndentation": false,
 	"editor.fontLigatures": true, // Enables font ligatures
