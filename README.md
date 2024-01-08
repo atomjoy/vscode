@@ -65,3 +65,36 @@ Alt + ArrowUp or ArrowDown - Przesuń linijkę lub zaznaczenie
 ### Zdjęcia
 <img src="https://raw.githubusercontent.com/atomjoy/vscode/main/vscode.png" width="100%">
 <img src="https://raw.githubusercontent.com/atomjoy/vscode/main/vscode-addons.png" width="100%">
+
+
+## Gnome 44/45
+
+Ustawienia gnome debian 12
+
+## Skaluj ekrany 125%
+
+Wpisz w terminalu i zrestartuj system
+
+```sh
+gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
+```
+
+## Skaluj interfejs logowania
+
+```sh
+sudo nano -m /etc/gdm3/greeter.dconf-defaults
+```
+
+### Dodaj na końcu
+
+```sh
+# Scaling Factor Setting
+[org/gnome/desktop/interface]
+scaling-factor=uint32 2
+```
+
+### Odśwież
+
+```sh
+sudo dpkg-reconfigure gdm3
+```
