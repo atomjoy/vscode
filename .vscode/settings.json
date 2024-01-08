@@ -1,4 +1,7 @@
 {
+	// GTK Remove Bar
+	"window.titleBarStyle": "custom",
+	
 	// Disable git
 	"git.enabled": true,
 
