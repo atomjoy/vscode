@@ -69,7 +69,11 @@ Alt + ArrowUp or ArrowDown - Przesuń linijkę lub zaznaczenie
 
 ## Gnome 44/45
 
-Ustawienia gnome debian 12
+Ustawienia Gnome Debian 12
+
+- Zainstaluj: Menedżer rozszerzeń gnome
+- Dodaj rozszerzenia: ArcMenu, Blur my Shell, Custom Accent Colors, Vitals, Unblank lock screen, Desktop Icons NG, User Themes
+- Dodaj opcjonalnie: Dash to Panel, Dash to Dock
 
 ## Skaluj ekrany 125%
 
