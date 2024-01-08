@@ -71,9 +71,18 @@ Alt + ArrowUp or ArrowDown - Przesuń linijkę lub zaznaczenie
 
 Ustawienia Gnome Debian 12
 
-- Zainstaluj: Menedżer rozszerzeń gnome
-- Dodaj rozszerzenia: ArcMenu, Blur my Shell, Custom Accent Colors, Vitals, Unblank lock screen, Desktop Icons NG, User Themes
-- Dodaj opcjonalnie: Dash to Panel, Dash to Dock
+### Zainstaluj menedżer rozszerzeń gnome
+
+```sh
+flatpak install flathub com.mattjakeman.ExtensionManager
+flatpak run com.mattjakeman.ExtensionManager
+```
+
+### Dodaj rozszerzenia
+
+ArcMenu, Blur my Shell, Custom Accent Colors, Vitals, Unblank lock screen, Desktop Icons NG, User Themes, Dash to Panel, Dash to Dock
+
+<img src="https://raw.githubusercontent.com/atomjoy/vscode/main/gnome-extensions.png" width="100%">
 
 ## Skaluj ekrany 125%
 
