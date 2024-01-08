@@ -9,6 +9,7 @@ Ustawienia Vs Code dla Php, Js, Laravel, Vue.
 - Prettier
 - BeardedTheme
 - Material Icon Theme
+- GTK Dark Title Bar
 
 ### Google Fonts
 - Fira Code
@@ -20,6 +21,14 @@ Ustawienia Vs Code dla Php, Js, Laravel, Vue.
 # Lub globalnie
 C:\Users\[USERNAME]\AppData\Roaming\Code\User\settings.json
  ```
+
+### GTK remove top bar
+
+```json
+{
+ "window.titleBarStyle": "custom"
+}
+```
 
 ### Prettier
 ```json
