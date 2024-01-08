@@ -79,7 +79,7 @@ Wpisz w terminalu i zrestartuj system
 gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
 ```
 
-<img src="https://raw.githubusercontent.com/atomjoy/vscode/main/fractional-scaling-in-gnome.webp" width="100%">
+<img src="https://raw.githubusercontent.com/atomjoy/vscode/main/fractional-scaling-in-gnome.png" width="100%">
 
 ## Skaluj interfejs logowania
 
