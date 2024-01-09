@@ -1,6 +1,10 @@
-## Gnome 44/45
+## Gnome 44/45 extensions (Debian 12/Fedora 39)
 
-Ustawienia Gnome Debian 12
+- Nie instalować na desktop wiecznie się wiesza podczas przeglądania w firefox (zacina się i trzeba restartować). Dodatki się krzaczą przez 2 rodzaje okienek a paski dublują.
+- Dodatkowo pomieszane sa stare okienka z nowymi co powoduje problemy wyświetlania w dodatkach i wylogowania (Dash to Dock i animacjach ikon nakłada się kilka pasków - to wina dodaku raczej).
+- Może to wina lapka podobnie się dzieje na fedora i debian (Dash to dock się krzaczy wylogowuje system i powiela paski jak uruchamiam thunderbirda i stare okienka)
+- Ogólnie chuj z takim wynalazkiem co się wiecznie pierdoli, zacina, wiesza, wylogowuje i czas marnuje (10 razy / 24h)
+- Te same problemy te same hujowe style, paddingi, ramki jak bym był dalej w latach 90 tych (tu gnome trochę lepiej ale i tak się wysypuje to nie wiem po co to wszystko)
 
 ### Zainstaluj menedżer rozszerzeń gnome
 
