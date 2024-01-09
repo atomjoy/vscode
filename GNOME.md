@@ -5,7 +5,7 @@ Instalacja dodatków do gnome i firefoxa
 ## Instalacja firefoxa
 
 - Zainstalować sudo apt install ffmpeg
-- Pobrać firefoxa ze strony https://www.mozilla.org/pl/firefox/new/ rozpakować do /home/user/Documenty 
+- Pobrać firefoxa ze strony https://www.mozilla.org/pl/firefox/new/ rozpakować do **/home/user/Documenty**
 - Uruchamiać z /home/user/Documenty/firefox/firefox-bin (ten firefox-esr się wysypuje z youtubem)
 
 ### Aktywator do firefoxa
