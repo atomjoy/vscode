@@ -1,8 +1,37 @@
-## Gnome 44/45 extensions (Debian 12/Fedora 39)
+# Gnome 44/45 extensions (Debian 12/Fedora 39)
 
 Instalacja dodatków do gnome, pobrać firefoxa ze strony i zainstalować ffmpeg uruchamiać z firefox-bin (ten esr się wysypuje z youtubem).
 
-### Zainstaluj menedżer rozszerzeń gnome
+## Aktywator do firefoxa
+
+```sh
+cp /usr/share/applications/firefox.desktop firefox-bin.desktop
+```
+
+### Przykład
+
+```sh
+[Desktop Entry]
+Name=Firefox Bin
+Name[pl]=Firefox Bin
+Comment=Browse the World Wide Web
+Comment[pl]=Przeglądanie stron WWW
+GenericName=Web Browser
+GenericName[pl]=Przeglądarka
+X-GNOME-FullName=Firefox Bin
+X-GNOME-FullName[pl]=Firefox Bin
+Exec=/home/user/Dokumenty/firefox/firefox-bin %u
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=firefox-esr
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/vnd.mozilla.xul+xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-s>
+StartupWMClass=Firefox Bin
+StartupNotify=true
+```
+
+## Zainstaluj menedżer rozszerzeń gnome
 
 ```sh
 flatpak install flathub com.mattjakeman.ExtensionManager
