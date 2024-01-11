@@ -16,3 +16,9 @@ cat ~/.ssh/id_ed25519.pub
 
 # Add public key to Github page
 Github > Settings > SSH and GPG Keys
+
+# Test github ssh connection
+ssh -T git@github.com
+
+# Clone repo with ssh key and key pass
+git clone git@github.com:atomjoy/proton.git
