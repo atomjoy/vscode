@@ -1,7 +1,9 @@
 # VS Code
+
 Ustawienia Vs Code dla Php, Js, Laravel, Vue.
 
 ### Extensions
+
 - JavaScript (ES6) code snippets
 - PHP Intelephense
 - Laravel Blade Snippets
@@ -12,9 +14,11 @@ Ustawienia Vs Code dla Php, Js, Laravel, Vue.
 - GTK Dark Title Bar
 
 ### Google Fonts
+
 - Fira Code
 
 ### Vscode ustawienia w katalogu projektu
+
 ```sh
 .vscode\settings.json
 
@@ -31,8 +35,9 @@ C:\Users\[USERNAME]\AppData\Roaming\Code\User\settings.json
 ```
 
 ### Prettier
+
 ```json
-{  
+{
  "editor.formatOnSave": true,
  "editor.defaultFormatter": "esbenp.prettier-vscode",
  "prettier.printWidth": 1000, // Line width dont breake lines
@@ -41,6 +46,7 @@ C:\Users\[USERNAME]\AppData\Roaming\Code\User\settings.json
 ```
 
 ### Opcjonalnie .editorconfig (will override all settings)
+
 ```sh
 [*.{js,ts,vue,css}]
 quote_type = single
@@ -50,6 +56,7 @@ trim_trailing_whitespace = true
 ```
 
 ### VSCode skróty
+
 ```sh
 Ctrl + / - Komentowanie zaznaczonego tekstu i z powrotem
 
@@ -60,9 +67,15 @@ Lewy Alt + Click - Ustaw kursor multiline i przesuń lub zaznacz ten sam tekst s
 Alt + Shift + ArrowUp or ArrowDown - Kopiuj linijkę
 
 Alt + ArrowUp or ArrowDown - Przesuń linijkę lub zaznaczenie
+
+# GTK4 remove shorts for copy line
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-up "['<Super>Page_Up']"
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down "['<Super>Page_Down']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-up "['<Super><Shift>Page_Up']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-down "['<Super><Shift>Page_Down']"
 ```
 
 ### Zdjęcia
+
 <img src="https://raw.githubusercontent.com/atomjoy/vscode/main/vscode.png" width="100%">
 <img src="https://raw.githubusercontent.com/atomjoy/vscode/main/vscode-addons.png" width="100%">
-

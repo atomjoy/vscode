@@ -1,12 +1,16 @@
 {
-	// GTK Remove Bar
-	"window.titleBarStyle": "custom",
-	
+	// GTK Remove Bar (set manualy from settings)
+	// "window.titleBarStyle": "custom",
+
+	// GTK Disable open folder file popup
+	// "files.simpleDialog.enable": true,
+
 	// Disable git
-	"git.enabled": true,
+	"git.enabled": false,
 
 	// Php
 	"php.validate.executablePath": "C:/xampp/php/php.exe",
+	// "php.validate.executablePath": "/bin/php",
 
 	// Window zoom/scale
 	"window.zoomLevel": 0,
@@ -97,7 +101,7 @@
 	},
 
 	"editor.codeActionsOnSave": {
-		"source.fixAll.markdownlint": true
+		"source.fixAll.markdownlint": "explicit"
 	},
 
 	// Laravel facades error
