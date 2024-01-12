@@ -1,19 +1,19 @@
 {
 	// GTK Remove Bar (set manualy from settings)
-	// "window.titleBarStyle": "custom",
+	"window.titleBarStyle": "custom",
 
 	// GTK Disable open folder file popup
-	// "files.simpleDialog.enable": true,
+	"files.simpleDialog.enable": true,
 
 	// Disable git
 	"git.enabled": false,
 
 	// Php
-	"php.validate.executablePath": "C:/xampp/php/php.exe",
-	// "php.validate.executablePath": "/bin/php",
+	// "php.validate.executablePath": "C:/xampp/php/php.exe",
+	"php.validate.executablePath": "/bin/php",
 
 	// Window zoom/scale
-	"window.zoomLevel": 0,
+	"window.zoomLevel": 1,
 
 	// Workbench style
 	"workbench.tree.indent": 20,
