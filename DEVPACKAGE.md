@@ -1,6 +1,6 @@
-# Devapp
+# How to add github packages in repository
 
-The Laravel application.
+The Laravel application package development.
 
 ## Add dev packages
 
