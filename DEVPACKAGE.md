@@ -4,7 +4,7 @@ The Laravel application package development.
 
 ## Add dev packages
 
-When package apilogin requires proton package version 1.0 make composer alias
+When the **apilogin** package requires **proton** package version 1.0, create a composer alias.
 
 ```json
 {
@@ -34,7 +34,7 @@ Add this files in main repository **.git/hooks** directory
 ```sh
 #!/bin/sh
 
-# File pre-commit
+# Main repo file .git/hooks/pre-commit
 
 # Rename packages .git to .git2 before push
 [ -d "packages/atomjoy/apilogin/.git" ] && mv -f packages/atomjoy/apilogin/.git packages/atomjoy/apilogin/.git2
@@ -46,7 +46,7 @@ Add this files in main repository **.git/hooks** directory
 ```sh
 #!/bin/sh
 
-# File post-commit
+# Main repo file .git/hooks/post-commit
 
 # Rename packages .git2 to .git after push
 [ -d "packages/atomjoy/apilogin/.git2" ] && mv -f packages/atomjoy/apilogin/.git2 packages/atomjoy/apilogin/.git
