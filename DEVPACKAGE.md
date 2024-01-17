@@ -27,7 +27,7 @@ When package apilogin requires proton package version 1.0 make composer alias
 
 ## Git repo hooks
 
-Add this files in main repository .git/hooks directory
+Add this files in main repository **.git/hooks** directory
 
 ### Pre-commit
 
