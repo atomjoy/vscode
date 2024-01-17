@@ -70,6 +70,5 @@ git push
 
 ## Links
 
-<https://github.com/atomjoy/vue>
-<https://github.com/atomjoy/proton>
-<https://github.com/atomjoy/apilogin>
+- <https://github.com/atomjoy/proton>
+- <https://github.com/atomjoy/apilogin>
