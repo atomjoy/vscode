@@ -1,6 +1,6 @@
-# How to add github packages in repository
+# How to dev package in repository
 
-The Laravel application package development.
+Development of the compositor package in repository.
 
 ## Add dev packages
 
@@ -58,6 +58,19 @@ Add this files in main repository **.git/hooks** directory
 ```sh
 chmod +x .git/hooks/pre-commit
 chmod +x .git/hooks/post-commit
+```
+
+### Add .gitignore
+
+Add file in package /package/atomjoy/[repo-name]/.gitignore
+
+```sh
+# Ignore Git here
+.git
+.git2
+
+# But not these files...
+!.gitignore
 ```
 
 ## Update repo
