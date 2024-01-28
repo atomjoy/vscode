@@ -21,3 +21,4 @@ code --install-extension wheredoesyourmindgo.gruvbox-concoctis
 code --install-extension xabikos.JavaScriptSnippets
 code --install-extension Vue.volar
 code --install-extension Vue.vscode-typescript-vue-plugin
+code --install-extension liamhammett.inline-parameters

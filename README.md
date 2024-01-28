@@ -12,6 +12,7 @@ Ustawienia Vs Code dla Php, Js, Laravel, Vue.
 - BeardedTheme
 - Material Icon Theme
 - GTK Dark Title Bar
+- Inline Parameters for VSCode
 
 ### Google Fonts
 
