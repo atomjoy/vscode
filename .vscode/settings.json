@@ -1,23 +1,24 @@
 {
 	// GTK Remove Bar (set manualy from settings)
-	"window.titleBarStyle": "custom",
+	// "window.titleBarStyle": "custom",
 
 	// GTK Disable open folder file popup
-	"files.simpleDialog.enable": true,
+	// "files.simpleDialog.enable": true,
 
 	// Disable git
 	"git.enabled": false,
 
 	// Php
-	// "php.validate.executablePath": "C:/xampp/php/php.exe",
-	"php.validate.executablePath": "/bin/php",
+	"php.validate.executablePath": "C:/xampp/php/php.exe",
+	// "php.validate.executablePath": "/bin/php",
 
 	// Window zoom/scale
-	"window.zoomLevel": 1,
+	"window.zoomLevel": 0,
 
 	// Workbench style
 	"workbench.tree.indent": 20,
 	"workbench.tree.renderIndentGuides": "always",
+	"workbench.colorTheme": "Bearded Theme Oceanic",
 
 	// Icons
 	"workbench.iconTheme": "material-icon-theme",
@@ -26,19 +27,33 @@
 	"files.trimTrailingWhitespace": true,
 
 	// Style
-	"editor.fontSize": 18,
+	"editor.fontSize": 16,
 	"editor.fontFamily": "'JetBrains Mono','Fira Code',Consolas,monospace",
 	"editor.insertSpaces": true, // Use spaces no tabs
 	"editor.detectIndentation": false,
 	"editor.fontLigatures": true, // Enables font ligatures
 	"editor.wordWrap": "off",
-	"editor.lineHeight": 0, // Use 0 to compute the lineHeight from the fontSize.
+	"editor.lineHeight": 23, // Use 0 to compute the lineHeight from the fontSize.
 	"editor.letterSpacing": 0.5,
-	"editor.tabSize": 2,
+	"editor.tabSize": 4,
 
+	// Terminal
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
 	// Formatter
 	"editor.formatOnSave": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	// Vscode
+	"editor.minimap.scale": 2,
+	"editor.mouseWheelZoom": true,
+	"editor.guides.bracketPairs": true,
+	"editor.minimap.showSlider": "always",
+	"editor.cursorBlinking": "phase",
+	"editor.cursorStyle": "line",
+	"editor.quickSuggestions": {
+		"other": "on",
+		"comments": "on",
+		"strings": "on"
+	},
 
 	// Prettier settings @ext:esbenp.prettier-vscode
 	"prettier.useEditorConfig": false,
@@ -58,12 +73,12 @@
 
 	// Format files
 	"[markdown]": {
+		"editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
 		"editor.unicodeHighlight.ambiguousCharacters": false,
 		"editor.unicodeHighlight.invisibleCharacters": false,
 		"editor.wordWrap": "off",
 		"editor.formatOnSave": true,
-		"editor.formatOnPaste": true,
-		"editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+		"editor.formatOnPaste": true
 	},
 	"[javascript]": {
 		"editor.formatOnSave": true,
@@ -82,10 +97,11 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[php]": {
+		// "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+		"editor.defaultFormatter": "DEVSENSE.phptools-vscode",
 		"editor.tabSize": 4,
 		"editor.insertSpaces": false, // Change spaces to tabs
 		"editor.formatOnSave": true,
-		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
 		"editor.wordWrapColumn": 1000
 	},
 	"[blade]": {
@@ -109,11 +125,44 @@
 	"intelephense.diagnostics.undefinedMethods": false,
 	"intelephense.environment.phpVersion": "8.1.6",
 	"workbench.startupEditor": "none",
-	"workbench.colorTheme": "Bearded Theme Oceanic",
 	"explorer.confirmDragAndDrop": false,
 
 	"files.associations": {
 		"*.env": "properties",
 		"*.env.*": "properties"
-	}
+	},
+
+	// Inline params
+	"inline-parameters.showPhpDollar": false,
+	"inline-parameters.fontSize": "0.75em",
+	"inline-parameters.fontWeight": "300",
+	"inline-parameters.fontStyle": "normal",
+	"inline-parameters.borderRadius": "0em",
+	"inline-parameters.hideSingleParameters": false,
+
+	"workbench.colorCustomizations": {
+		// "inlineparameters.annotationForeground": "#fff"
+		// "inlineparameters.annotationBackground": "#3a4f3a"
+		// "inlineparameters.annotationBackground": "#5d805d",
+	},
+	// Docs
+	"editor.formatOnType": true,
+	"php.docblock.classSnippet": {
+		"@author": "Marcys",
+		"@copyright": "(c) $CURRENT_YEAR"
+	},
+	"php.docblock.functionSnippet": {
+		"@author": "Marcys",
+		"@throws": true
+	},
+	"php.docblock.propertySnippet": {
+		"@author": "${name:John}"
+	},
+	// Spellcheck
+	"cSpell.userWords": ["Marcys"],
+	"cSpell.words": ["uncaptured"]
+
+	// Corrupt SynthWawe 80 Theme
+	// "synthwave84.disableGlow": false,
+	// "synthwave84.brightness": 0.45
 }

@@ -10,8 +10,14 @@
 		"prefix": ["v3-setup"],
 		"body": ["<script setup>", "import { ref, reactive, toRefs, onMounted, onUnmounted, watch } from 'vue'", "$0", "</script>\r\n", "<template>\r\n", "</template>\r\n", "<style lang=\"css\" scoped>\r\n", "</style>"],
 		"description": "Vue3 setup in tag"
+	},
+	"Php if": {
+		"scope": "php,html",
+		"prefix": ["phpif"],
+		"body": ["<?php if($1) {", "$2", "} ?>"],
+		"description": "Php if()"
 	}
-	
+
 	// Place your app-vuerest workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
 	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
 	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
