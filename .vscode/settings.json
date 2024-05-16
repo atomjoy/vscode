@@ -13,7 +13,7 @@
 	// "php.validate.executablePath": "/bin/php",
 
 	// Window zoom/scale
-	"window.zoomLevel": 0,
+	"window.zoomLevel": 1,
 
 	// Workbench style
 	"workbench.tree.indent": 20,
@@ -28,24 +28,25 @@
 
 	// Style
 	"editor.fontSize": 16,
-	"editor.fontFamily": "'JetBrains Mono','Fira Code',Consolas,monospace",
+	"editor.fontWeight": "400",
+	"editor.fontFamily": "'JetBrains Mono','Fira Code','Source Code Pro',Consolas,monospace",
 	"editor.insertSpaces": true, // Use spaces no tabs
 	"editor.detectIndentation": false,
 	"editor.fontLigatures": true, // Enables font ligatures
 	"editor.wordWrap": "off",
-	"editor.lineHeight": 23, // Use 0 to compute the lineHeight from the fontSize.
+	"editor.lineHeight": 23, // Use 0 or 23 to compute the lineHeight from the fontSize.
 	"editor.letterSpacing": 0.5,
 	"editor.tabSize": 4,
 
 	// Terminal
-	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	// "terminal.integrated.defaultProfile.windows": "Git Bash",
 	// Formatter
 	"editor.formatOnSave": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	// Vscode
+	"editor.guides.bracketPairs": true,
 	"editor.minimap.scale": 2,
 	"editor.mouseWheelZoom": true,
-	"editor.guides.bracketPairs": true,
 	"editor.minimap.showSlider": "always",
 	"editor.cursorBlinking": "phase",
 	"editor.cursorStyle": "line",
@@ -97,8 +98,8 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[php]": {
-		// "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
-		"editor.defaultFormatter": "DEVSENSE.phptools-vscode",
+		// "editor.defaultFormatter": "DEVSENSE.phptools-vscode",
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
 		"editor.tabSize": 4,
 		"editor.insertSpaces": false, // Change spaces to tabs
 		"editor.formatOnSave": true,
@@ -160,9 +161,32 @@
 	},
 	// Spellcheck
 	"cSpell.userWords": ["Marcys"],
-	"cSpell.words": ["uncaptured"]
+	"cSpell.words": ["uncaptured"],
 
 	// Corrupt SynthWawe 80 Theme
 	// "synthwave84.disableGlow": false,
-	// "synthwave84.brightness": 0.45
+	// "synthwave84.brightness": 0.45,
+
+	"todo-tree.highlights.customHighlight": {
+		"TODO": {
+			"iconColour": "#FFBD2A",
+			"rulerColour": "#FFBD2A",
+			"background": "#FFBD2A",
+			"foreground": "#fff",
+			"borderRadius": "0"
+			// "icon": "check",
+			// "type": "line"
+		},
+		"FIXME": {
+			"fontWeigh": "600",
+			"iconColour": "#55cc55",
+			"rulerColour": "#55cc55",
+			"background": "#55cc55",
+			"foreground": "#fff",
+			"borderRadius": "0"
+			// "foreground": "black",
+			// "iconColour": "yellow",
+			// "gutterIcon": true
+		}
+	}
 }
