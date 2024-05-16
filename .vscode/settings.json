@@ -5,6 +5,9 @@
 	// GTK Disable open folder file popup
 	// "files.simpleDialog.enable": true,
 
+	// Terminal
+	// "terminal.integrated.defaultProfile.windows": "Git Bash",
+
 	// Disable git
 	"git.enabled": false,
 
@@ -19,9 +22,10 @@
 	"workbench.tree.indent": 20,
 	"workbench.tree.renderIndentGuides": "always",
 	"workbench.colorTheme": "Bearded Theme Oceanic",
-
-	// Icons
 	"workbench.iconTheme": "material-icon-theme",
+	"workbench.startupEditor": "none",
+	"workbench.colorCustomizations": {},
+	"explorer.confirmDragAndDrop": false,
 
 	// File
 	"files.trimTrailingWhitespace": true,
@@ -38,11 +42,10 @@
 	"editor.letterSpacing": 0.5,
 	"editor.tabSize": 4,
 
-	// Terminal
-	// "terminal.integrated.defaultProfile.windows": "Git Bash",
 	// Formatter
 	"editor.formatOnSave": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
 	// Vscode
 	"editor.guides.bracketPairs": true,
 	"editor.minimap.scale": 2,
@@ -125,8 +128,6 @@
 	"intelephense.diagnostics.undefinedTypes": false,
 	"intelephense.diagnostics.undefinedMethods": false,
 	"intelephense.environment.phpVersion": "8.1.6",
-	"workbench.startupEditor": "none",
-	"explorer.confirmDragAndDrop": false,
 
 	"files.associations": {
 		"*.env": "properties",
@@ -141,11 +142,6 @@
 	"inline-parameters.borderRadius": "0em",
 	"inline-parameters.hideSingleParameters": false,
 
-	"workbench.colorCustomizations": {
-		// "inlineparameters.annotationForeground": "#fff"
-		// "inlineparameters.annotationBackground": "#3a4f3a"
-		// "inlineparameters.annotationBackground": "#5d805d",
-	},
 	// Docs
 	"editor.formatOnType": true,
 	"php.docblock.classSnippet": {
@@ -167,26 +163,66 @@
 	// "synthwave84.disableGlow": false,
 	// "synthwave84.brightness": 0.45,
 
+	// TODO Tree
+	"todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]"],
+	"todo-tree.highlights.defaultHighlight": {
+		"icon": "alert",
+		"type": "tag-and-comment",
+		"iconColour": "#0099ff",
+		"background": "#0099ff",
+		"foreground": "#fff",
+		"borderRadius": "0",
+		"fontWeigh": "700",
+		"gutterIcon": true,
+		"opacity": 100
+	},
 	"todo-tree.highlights.customHighlight": {
 		"TODO": {
+			"icon": "shield-check",
+			"type": "tag-and-comment",
 			"iconColour": "#FFBD2A",
-			"rulerColour": "#FFBD2A",
 			"background": "#FFBD2A",
-			"foreground": "#fff",
-			"borderRadius": "0"
-			// "icon": "check",
-			// "type": "line"
+			"foreground": "#FFF",
+			"borderRadius": "0",
+			"fontWeigh": "700",
+			"gutterIcon": true,
+			"opacity": 100
 		},
 		"FIXME": {
-			"fontWeigh": "600",
+			"icon": "bell",
+			"type": "tag-and-comment",
 			"iconColour": "#55cc55",
-			"rulerColour": "#55cc55",
 			"background": "#55cc55",
 			"foreground": "#fff",
-			"borderRadius": "0"
-			// "foreground": "black",
-			// "iconColour": "yellow",
-			// "gutterIcon": true
+			"borderRadius": "0",
+			"fontWeigh": "700",
+			"gutterIcon": true,
+			"opacity": 100
 		}
-	}
+	},
+	// TODO Highlight
+	"todohighlight.defaultStyle": {
+		"color": "#fff",
+		"backgroundColor": "#FFBD2A",
+		"cursor": "pointer"
+		//other styling properties goes here ...
+	},
+	"todohighlight.keywords": [
+		"DEBUG:",
+		"REVIEW:",
+		"TODO:",
+		"FIXME:",
+		{
+			"text": "FIXME:",
+			"color": "#fff",
+			"backgroundColor": "#55cc55",
+			"cursor": "pointer"
+		},
+		{
+			"text": "HACK:",
+			"color": "#fff",
+			"backgroundColor": "#55cc55",
+			"cursor": "pointer"
+		}
+	]
 }
