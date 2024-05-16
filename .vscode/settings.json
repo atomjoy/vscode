@@ -163,13 +163,13 @@
 	// "synthwave84.disableGlow": false,
 	// "synthwave84.brightness": 0.45,
 
-	// TODO Tree
+	// TODO Tree (Cool)
 	"todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]"],
 	"todo-tree.highlights.defaultHighlight": {
 		"icon": "alert",
 		"type": "tag-and-comment",
-		"iconColour": "#0099ff",
-		"background": "#0099ff",
+		"iconColour": "#ff2233",
+		"background": "#ff2233",
 		"foreground": "#fff",
 		"borderRadius": "0",
 		"fontWeigh": "700",
@@ -208,9 +208,13 @@
 		//other styling properties goes here ...
 	},
 	"todohighlight.keywords": [
+		"BUG:",
 		"DEBUG:",
 		"REVIEW:",
 		"TODO:",
+		"XXX",
+		"[ ]",
+		"[x]",
 		"FIXME:",
 		{
 			"text": "FIXME:",
