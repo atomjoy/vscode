@@ -16,7 +16,7 @@
 	// "php.validate.executablePath": "/bin/php",
 
 	// Window zoom/scale
-	"window.zoomLevel": 1,
+	"window.zoomLevel": 0.5,
 
 	// Workbench style
 	"workbench.tree.indent": 20,
@@ -75,6 +75,13 @@
 	// Laravel Blade Snippets formatter @ext:onecentlin.laravel-blade
 	"blade.format.enable": true,
 
+	// Files
+	"files.associations": {
+		"*.env": "properties",
+		"*.env.*": "properties",
+		"*.code-snippets": "json" // Dont format on save
+	},
+
 	// Format files
 	"[markdown]": {
 		"editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
@@ -119,7 +126,12 @@
 	"[xml]": {
 		"editor.defaultFormatter": "DotJoshJohnson.xml"
 	},
+	"[json]": {
+		"editor.formatOnSave": false,
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
 
+	// Markdown
 	"editor.codeActionsOnSave": {
 		"source.fixAll.markdownlint": "explicit"
 	},
@@ -128,11 +140,6 @@
 	"intelephense.diagnostics.undefinedTypes": false,
 	"intelephense.diagnostics.undefinedMethods": false,
 	"intelephense.environment.phpVersion": "8.1.6",
-
-	"files.associations": {
-		"*.env": "properties",
-		"*.env.*": "properties"
-	},
 
 	// Inline params
 	"inline-parameters.showPhpDollar": false,
