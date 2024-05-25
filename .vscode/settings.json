@@ -68,9 +68,11 @@
 	"prettier.bracketSameLine": true, // Dont break > tag end
 
 	// Line length
-	"editor.wordWrapColumn": 300, // Dont break line
-	"html.format.wrapLineLength": 300, // Dont break line
-	"prettier.printWidth": 300, // Dont break line
+	"editor.wordWrapColumn": 1000, // Dont break line
+	"prettier.printWidth": 1000, // Dont break line
+	"html.format.wrapLineLength": 1000, // Dont break line
+	"html.suggest.html5": true,
+	"html.format.wrapAttributes": "force",
 
 	// Laravel Blade Snippets formatter @ext:onecentlin.laravel-blade
 	"blade.format.enable": true,
@@ -122,6 +124,9 @@
 		"editor.defaultFormatter": "onecentlin.laravel-blade",
 		"editor.wordWrapColumn": 1000,
 		"editor.autoClosingBrackets": "always"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
 	},
 	"[xml]": {
 		"editor.defaultFormatter": "DotJoshJohnson.xml"
