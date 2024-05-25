@@ -2,6 +2,8 @@
 
 Ustawienia Vs Code dla Php, Js, Laravel, Vue.
 
+<https://code.visualstudio.com/docs/languages/html>
+
 ### Extensions
 
 - JavaScript (ES6) code snippets
