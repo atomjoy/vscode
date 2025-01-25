@@ -3,13 +3,14 @@ root = true
 [*]
 charset = utf-8
 end_of_line = lf
-indent_size = 2
+indent_size = 4
 indent_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
+max_line_length = 1000
 
 [*.md]
-indent_size = 2
+indent_size = 4
 
 [*.{yml,yaml}]
 indent_size = 2
@@ -23,14 +24,15 @@ indent_size = 4
 indent_style = tab
 
 [*.blade.php]
-indent_size = 2
-indent_style = space
+indent_size = 4
+indent_style = tab
 
 [*.{xml,html,json}]
-indent_size = 2
-indent_style = space
+indent_size = 4
+indent_style = tab
 
 [*.{css,js,ts,vue}]
-indent_size = 2
-indent_style = space
+indent_size = 4
+indent_style = tab
+insert_final_newline = false
 quote_type = single
