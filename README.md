@@ -63,7 +63,7 @@ trim_trailing_whitespace = true
 
 ### Extensions list
 
-``sh
+```sh
 code --install-extension ahinkle.laravel-model-snippets
 code --install-extension amiralizadeh9480.laravel-extra-intellisense
 code --install-extension avetis.nord-palette
