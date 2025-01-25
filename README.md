@@ -2,8 +2,10 @@
 
 Ustawienia Vs Code dla Php, Js, Laravel, Vue.
 
-<https://code.visualstudio.com/docs/languages/html>
-<https://docs.emmet.io/cheat-sheet/>
+## Copy .vscode
+
+Copy .vscode to Laravel app directory.
+Next copy .editorconfig and .prettierrc from .vscode to Laravel main directory.
 
 ### Extensions
 
@@ -78,6 +80,10 @@ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down "['<Supe
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-up "['<Super><Shift>Page_Up']"
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-down "['<Super><Shift>Page_Down']"
 ```
+
+### Links
+- <https://code.visualstudio.com/docs/languages/html>
+- <https://docs.emmet.io/cheat-sheet/>
 
 ### Zdjęcia
 
