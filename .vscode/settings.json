@@ -1,244 +1,254 @@
 {
-	// GTK Remove Bar (set manualy from settings)
-	// "window.titleBarStyle": "custom",
+  // GTK Remove Bar (set manualy from settings)
+  // "window.titleBarStyle": "custom",
 
-	// GTK Disable open folder file popup
-	// "files.simpleDialog.enable": true,
+  // GTK Disable open folder file popup
+  // "files.simpleDialog.enable": true,
 
-	// Terminal
-	// "terminal.integrated.defaultProfile.windows": "Git Bash",
+  // Terminal
+  // "terminal.integrated.defaultProfile.windows": "Git Bash",
 
-	// Disable git
-	"git.enabled": false,
+  // Disable git
+  "git.enabled": false,
 
-	// Php
-	"php.validate.executablePath": "C:/xampp/php/php.exe",
-	// "php.validate.executablePath": "/bin/php",
+  // Php
+  "php.validate.executablePath": "C:/xampp/php/php.exe",
+  // "php.validate.executablePath": "/bin/php",
 
-	// Window zoom/scale
-	"window.zoomLevel": 0.5,
+  // Window zoom/scale
+  "window.zoomLevel": 0.5,
 
-	// Workbench style
-	"workbench.tree.indent": 20,
-	"workbench.tree.renderIndentGuides": "always",
-	"workbench.colorTheme": "Bearded Theme Oceanic",
-	"workbench.iconTheme": "material-icon-theme",
-	"workbench.startupEditor": "none",
-	"workbench.colorCustomizations": {},
-	"explorer.confirmDragAndDrop": false,
+  // Workbench style
+  "workbench.tree.indent": 20,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.colorTheme": "Bearded Theme Light",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "workbench.colorCustomizations": {},
+  "explorer.confirmDragAndDrop": false,
 
-	// File
-	"files.trimTrailingWhitespace": true,
+  // File
+  "files.trimTrailingWhitespace": true,
 
-	// Style
-	"editor.fontSize": 16,
-	"editor.fontWeight": "400",
-	"editor.fontFamily": "'JetBrains Mono','Fira Code','Source Code Pro',Consolas,monospace",
-	"editor.insertSpaces": true, // Use spaces no tabs
-	"editor.detectIndentation": false,
-	"editor.fontLigatures": true, // Enables font ligatures
-	"editor.wordWrap": "off",
-	"editor.lineHeight": 23, // Use 0 or 23 to compute the lineHeight from the fontSize.
-	"editor.letterSpacing": 0.5,
-	"editor.tabSize": 4,
+  // Style font
+  "editor.fontSize": 16,
+  "editor.fontWeight": "400",
+  "editor.fontFamily": "'JetBrains Mono','Fira Code','Source Code Pro',Consolas,monospace",
+  "editor.lineHeight": 1.4, // Use 0 to compute the lineHeight from the fontSize.
+  "editor.letterSpacing": 0.5,
+  "editor.fontLigatures": true, // Enables font ligatures  => !=
+  "editor.wordWrap": "off",
 
-	// Formatter
-	"editor.formatOnSave": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Style tabs
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true, // Use spaces no tabs
+  "editor.detectIndentation": true,
 
-	// Vscode
-	"editor.guides.bracketPairs": true,
-	"editor.minimap.scale": 2,
-	"editor.mouseWheelZoom": true,
-	"editor.minimap.showSlider": "always",
-	"editor.cursorBlinking": "phase",
-	"editor.cursorStyle": "line",
-	"editor.quickSuggestions": {
-		"other": "on",
-		"comments": "on",
-		"strings": "on"
-	},
+  // Formatter
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
 
-	// Prettier settings @ext:esbenp.prettier-vscode
-	"prettier.useEditorConfig": false,
-	"prettier.singleQuote": true,
-	"prettier.semi": false,
-	"prettier.jsxSingleQuote": true,
-	"prettier.useTabs": true, // Change spaces to tabs
-	"prettier.bracketSameLine": true, // Dont break > tag end
+  // Vscode
+  "editor.guides.bracketPairs": true,
+  "editor.minimap.scale": 2,
+  "editor.mouseWheelZoom": true,
+  "editor.minimap.showSlider": "always",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorStyle": "line",
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "on",
+    "strings": "on"
+  },
 
-	// Line length
-	"editor.wordWrapColumn": 100, // Dont break line
-	"prettier.printWidth": 100, // Dont break line
-	"html.format.wrapLineLength": 100, // Dont break line
-	"html.suggest.html5": true,
-	"html.format.wrapAttributes": "aligned-multiple",
+  // Prettier settings @ext:esbenp.prettier-vscode
+  "prettier.useEditorConfig": true, // Use .editorconfig
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": false,
+  "prettier.useTabs": false, // Change spaces to tabs
+  "prettier.bracketSameLine": false, // Dont break > tag end
 
-	// Laravel Blade Snippets formatter @ext:onecentlin.laravel-blade
-	"blade.format.enable": true,
+  // Line length
+  "editor.wordWrapColumn": 1000, // Dont break line
+  "prettier.printWidth": 1000, // Dont break line
+  "html.format.wrapLineLength": 1000, // Dont break line
+  "html.suggest.html5": true,
+  "html.format.wrapAttributes": "aligned-multiple",
 
-	// Files
-	"files.associations": {
-		"*.env": "properties",
-		"*.env.*": "properties",
-		"*.code-snippets": "json" // Dont format on save
-	},
+  // Laravel Blade Snippets formatter @ext:onecentlin.laravel-blade
+  "blade.format.enable": true,
 
-	// Format files
-	"[markdown]": {
-		"editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
-		"editor.unicodeHighlight.ambiguousCharacters": false,
-		"editor.unicodeHighlight.invisibleCharacters": false,
-		"editor.wordWrap": "off",
-		"editor.formatOnSave": true,
-		"editor.formatOnPaste": true
-	},
-	"[javascript]": {
-		"editor.formatOnSave": true,
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[vue]": {
-		"editor.formatOnSave": true,
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[css]": {
-		"editor.formatOnSave": true,
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[ts]": {
-		"editor.formatOnSave": true,
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[php]": {
-		// "editor.defaultFormatter": "DEVSENSE.phptools-vscode",
-		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
-		"editor.tabSize": 4,
-		"editor.insertSpaces": false, // Change spaces to tabs
-		"editor.formatOnSave": true,
-		"editor.wordWrapColumn": 1000
-	},
-	"[blade]": {
-		"editor.tabSize": 4,
-		"editor.insertSpaces": false, // Change spaces to tabs
-		"editor.formatOnSave": true,
-		"editor.defaultFormatter": "onecentlin.laravel-blade",
-		"editor.wordWrapColumn": 1000,
-		"editor.autoClosingBrackets": "always"
-	},
-	"[html]": {
-		"editor.defaultFormatter": "vscode.html-language-features"
-	},
-	"[xml]": {
-		"editor.defaultFormatter": "DotJoshJohnson.xml"
-	},
-	"[json]": {
-		"editor.formatOnSave": false,
-		"editor.defaultFormatter": "vscode.json-language-features"
-	},
+  // Files
+  "files.associations": {
+    "*.env": "properties",
+    "*.env.*": "properties",
+    "*.code-snippets": "json" // Dont format on save
+  },
 
-	// Markdown
-	"editor.codeActionsOnSave": {
-		"source.fixAll.markdownlint": "explicit"
-	},
+  // Format files
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.wordWrap": "off",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[ts]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[php]": {
+    // "editor.defaultFormatter": "DEVSENSE.phptools-vscode",
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false, // Change spaces to tabs
+    "editor.formatOnSave": true,
+    "editor.wordWrapColumn": 1000
+  },
+  "[blade]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false, // Change spaces to tabs
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "onecentlin.laravel-blade",
+    "editor.wordWrapColumn": 1000,
+    "editor.autoClosingBrackets": "always"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
 
-	// Laravel facades error
-	"intelephense.diagnostics.undefinedTypes": false,
-	"intelephense.diagnostics.undefinedMethods": false,
-	"intelephense.environment.phpVersion": "8.1.6",
+  // Markdown
+  "editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": "explicit"
+  },
 
-	// Inline params
-	"inline-parameters.showPhpDollar": false,
-	"inline-parameters.fontSize": "0.75em",
-	"inline-parameters.fontWeight": "300",
-	"inline-parameters.fontStyle": "normal",
-	"inline-parameters.borderRadius": "0em",
-	"inline-parameters.hideSingleParameters": false,
+  // Laravel facades error
+  "intelephense.diagnostics.undefinedTypes": false,
+  "intelephense.diagnostics.undefinedMethods": false,
+  "intelephense.environment.phpVersion": "8.1.6",
 
-	// Docs
-	"editor.formatOnType": true,
-	"php.docblock.classSnippet": {
-		"@author": "Marcys",
-		"@copyright": "(c) $CURRENT_YEAR"
-	},
-	"php.docblock.functionSnippet": {
-		"@author": "Marcys",
-		"@throws": true
-	},
-	"php.docblock.propertySnippet": {
-		"@author": "${name:John}"
-	},
-	// Spellcheck
-	"cSpell.userWords": ["Marcys"],
-	"cSpell.words": ["uncaptured"],
+  // Inline params
+  "inline-parameters.showPhpDollar": false,
+  "inline-parameters.fontSize": "0.75em",
+  "inline-parameters.fontWeight": "300",
+  "inline-parameters.fontStyle": "normal",
+  "inline-parameters.borderRadius": "0em",
+  "inline-parameters.hideSingleParameters": false,
 
-	// Corrupt SynthWawe 80 Theme
-	// "synthwave84.disableGlow": false,
-	// "synthwave84.brightness": 0.45,
+  // Docs
+  "editor.formatOnType": true,
+  "php.docblock.classSnippet": {
+    "@author": "Marcys",
+    "@copyright": "(c) $CURRENT_YEAR"
+  },
+  "php.docblock.functionSnippet": {
+    "@author": "Marcys",
+    "@throws": true
+  },
+  "php.docblock.propertySnippet": {
+    "@author": "${name:John}"
+  },
+  // Spellcheck
+  "cSpell.userWords": ["Marcys"],
+  "cSpell.words": ["uncaptured"],
 
-	// TODO Tree (Cool)
-	"todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]"],
-	"todo-tree.highlights.defaultHighlight": {
-		"icon": "alert",
-		"type": "tag-and-comment",
-		"iconColour": "#ff2233",
-		"background": "#ff2233",
-		"foreground": "#fff",
-		"borderRadius": "0",
-		"fontWeigh": "700",
-		"gutterIcon": true,
-		"opacity": 100
-	},
-	"todo-tree.highlights.customHighlight": {
-		"TODO": {
-			"icon": "shield-check",
-			"type": "tag-and-comment",
-			"iconColour": "#FFBD2A",
-			"background": "#FFBD2A",
-			"foreground": "#FFF",
-			"borderRadius": "0",
-			"fontWeigh": "700",
-			"gutterIcon": true,
-			"opacity": 100
-		},
-		"FIXME": {
-			"icon": "bell",
-			"type": "tag-and-comment",
-			"iconColour": "#55cc55",
-			"background": "#55cc55",
-			"foreground": "#fff",
-			"borderRadius": "0",
-			"fontWeigh": "700",
-			"gutterIcon": true,
-			"opacity": 100
-		}
-	},
-	// TODO Highlight
-	"todohighlight.defaultStyle": {
-		"color": "#fff",
-		"backgroundColor": "#FFBD2A",
-		"cursor": "pointer"
-		//other styling properties goes here ...
-	},
-	"todohighlight.keywords": [
-		"BUG:",
-		"DEBUG:",
-		"REVIEW:",
-		"TODO:",
-		"XXX",
-		"[ ]",
-		"[x]",
-		"FIXME:",
-		{
-			"text": "FIXME:",
-			"color": "#fff",
-			"backgroundColor": "#55cc55",
-			"cursor": "pointer"
-		},
-		{
-			"text": "HACK:",
-			"color": "#fff",
-			"backgroundColor": "#55cc55",
-			"cursor": "pointer"
-		}
-	]
+  // Corrupt SynthWawe 80 Theme
+  // "synthwave84.disableGlow": false,
+  // "synthwave84.brightness": 0.45,
+
+  // TODO Tree (Cool)
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "type": "tag-and-comment",
+    "iconColour": "#ff2233",
+    "background": "#ff2233",
+    "foreground": "#fff",
+    "borderRadius": "0",
+    "fontWeigh": "700",
+    "gutterIcon": true,
+    "opacity": 100
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "shield-check",
+      "type": "tag-and-comment",
+      "iconColour": "#FFBD2A",
+      "background": "#FFBD2A",
+      "foreground": "#FFF",
+      "borderRadius": "0",
+      "fontWeigh": "700",
+      "gutterIcon": true,
+      "opacity": 100
+    },
+    "FIXME": {
+      "icon": "bell",
+      "type": "tag-and-comment",
+      "iconColour": "#55cc55",
+      "background": "#55cc55",
+      "foreground": "#fff",
+      "borderRadius": "0",
+      "fontWeigh": "700",
+      "gutterIcon": true,
+      "opacity": 100
+    }
+  },
+  // TODO Highlight
+  "todohighlight.defaultStyle": {
+    "color": "#fff",
+    "backgroundColor": "#FFBD2A",
+    "cursor": "pointer"
+    //other styling properties goes here ...
+  },
+  "todohighlight.keywords": [
+    "BUG:",
+    "DEBUG:",
+    "REVIEW:",
+    "TODO:",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "FIXME:",
+    {
+      "text": "FIXME:",
+      "color": "#fff",
+      "backgroundColor": "#55cc55",
+      "cursor": "pointer"
+    },
+    {
+      "text": "HACK:",
+      "color": "#fff",
+      "backgroundColor": "#55cc55",
+      "cursor": "pointer"
+    }
+  ]
 }

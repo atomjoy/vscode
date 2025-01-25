@@ -3,7 +3,7 @@
 # Get installed extensions list
 # code --list-extensions | % { "code --install-extension $_" }
 
-# Mini 
+# Mini
 code --install-extension ahinkle.laravel-model-snippets
 code --install-extension amiralizadeh9480.laravel-extra-intellisense
 code --install-extension arcticicestudio.nord-visual-studio-code
@@ -100,6 +100,7 @@ code --install-extension onecentlin.laravel-blade
 code --install-extension pkief.material-icon-theme
 code --install-extension rapidapi.vscode-rapidapi-client
 code --install-extension rapidapi.vscode-services
+code --install-extension sainnhe.gruvbox-material
 code --install-extension shufo.vscode-blade-formatter
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension vue.volar
