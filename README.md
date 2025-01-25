@@ -1,6 +1,6 @@
-# VS Code
+# VsCode Settings Laravel
 
-Ustawienia Vs Code dla Php, Js, Laravel, Vue.
+Vscode settings with prettier for Laravel (Php, Blade, Html, Css, JavaScript, Vue).
 
 ## Copy .vscode
 
