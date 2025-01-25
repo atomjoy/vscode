@@ -4,8 +4,8 @@ Ustawienia Vs Code dla Php, Js, Laravel, Vue.
 
 ## Copy .vscode
 
-Copy .vscode to Laravel app directory.
-Next copy .editorconfig and .prettierrc from .vscode to Laravel main directory.
+Copy **.vscode** to Laravel app directory.
+Next copy **.editorconfig** and **.prettierrc** from **.vscode** to Laravel main directory.
 
 ### Extensions
 
