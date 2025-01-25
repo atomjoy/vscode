@@ -48,6 +48,9 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
 
+  // Semicolon
+  "javascript.format.semicolons": "remove",
+
   // Vscode
   "editor.guides.bracketPairs": true,
   "editor.minimap.scale": 2,
@@ -65,16 +68,16 @@
   "prettier.useEditorConfig": true, // Use .editorconfig
   "prettier.singleQuote": true,
   "prettier.jsxSingleQuote": true,
-  "prettier.semi": false,
+  "prettier.semi": false, // Remove semicolon
   "prettier.useTabs": false, // Change spaces to tabs
   "prettier.bracketSameLine": false, // Dont break > tag end
 
   // Line length
-  "editor.wordWrapColumn": 1000, // Dont break line
   "prettier.printWidth": 1000, // Dont break line
+  "editor.wordWrapColumn": 1000, // Dont break line
   "html.format.wrapLineLength": 1000, // Dont break line
-  "html.suggest.html5": true,
   "html.format.wrapAttributes": "aligned-multiple",
+  "html.suggest.html5": true,
 
   // Laravel Blade Snippets formatter @ext:onecentlin.laravel-blade
   "blade.format.enable": true,
@@ -101,7 +104,9 @@
   },
   "[vue]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.semi": false,
+    "vetur.format.defaultFormatter.js": "vscode-typescript"
   },
   "[css]": {
     "editor.formatOnSave": true,
@@ -124,7 +129,6 @@
     "editor.insertSpaces": false, // Change spaces to tabs
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "onecentlin.laravel-blade",
-    "editor.wordWrapColumn": 1000,
     "editor.autoClosingBrackets": "always"
   },
   "[html]": {
