@@ -1,0 +1,29 @@
+# php_value display_errors 1
+# DirectoryIndex index.html index.php
+
+# PHP 8.2
+AddType application/x-httpd-php82 .php
+
+# Dir listing disabled
+Options -Indexes
+
+# Enable rewrite
+RewriteEngine On
+RewriteBase /
+
+# Non-www
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+# Http to https
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Https to http
+# RewriteCond %{HTTPS} on
+# RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Redirect domain
+# RewriteCond %{HTTP_HOST} ^atomjoy.test$ [OR]
+# RewriteCond %{HTTP_HOST} ^www.atomjoy.test$
+# RewriteRule (.*)$ https://atomjoy.github.io/$1 [R=301,L]
